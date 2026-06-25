@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <label>Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label>Phone:</label>
+        <input type="number" name="phone" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Location:</label>
+        <input type="text" value="Hyderabad" disabled readonly>
+        <br><br>
+
+        <label>Country:</label>
+        <select name="country">
+            <option value="">--Select Country--</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>UK</option>
+        </select>
+        <br><br>
+
+        <label>Skill Set:</label>
+        <select name="skills" multiple>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>React</option>
+        </select>
+        <br><br>
+
+        <label>Comments:</label><br>
+        <textarea name="comments" rows="3" cols="30"></textarea>
+        <br><br>
+
+        <label>Upload Resume:</label>
+        <input type="file" name="resume">
+        <br><br>
+
+        <label>Upload Photo:</label>
+        <input type="file" name="photo">
+        <br><br>
+
+        <label>Hosting Link:</label>
+        <input type="url" name="hostingLink" placeholder="https://example.com">
+        <br><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading
+        <input type="checkbox" name="hobbies" value="Gaming"> Gaming
+        <input type="checkbox" name="hobbies" value="Sports"> Sports
+        <input type="checkbox" name="hobbies" value="Music"> Music
+        <br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
