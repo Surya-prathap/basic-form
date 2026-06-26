@@ -1,0 +1,59 @@
+.fruitcard{
+    border: 2px solid rgb(135, 133, 133);
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.fruitcard img{
+    width: 100%;
+    height: 250px;
+    object-fit:contain;
+    object-position: center;
+}
+
+.fruitcard h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(24, 55, 112);
+}
+
+.fruitcard h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(22, 203, 239);
+}
+
+.fruitcard p{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.fruitcard button{
+    background-color: rgb(175, 248, 102);
+    color: rgb(2, 59, 61);
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fruitcard button:hover{
+    background-color: rgb(95, 194, 200);
+    color:rgb(255, 255, 255) ;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
